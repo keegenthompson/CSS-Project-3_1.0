@@ -1,0 +1,35 @@
+﻿/*
+   New Perspectives on HTML and CSS
+   Tutorial 3
+   Case Problem 2
+
+   Mountain Wheels Text and Color Style
+   Author:
+   Date:
+
+   Filename:         mw_layout.css
+   Supporting Files: none
+
+*/
+
+body{
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+nav ul{
+  background-color: rgb(125, 120, 89);
+  list-style-type: none;
+  line-height: 3em;
+  list-style-image: url(wheelmarker.png);
+}
+
+
+nav ul li a{
+color: rgb(255, 255, 255);
+color: rgba(255, 255, 255, 0.5);
+text-decoration: none;
+}
+
+nav ul li:hover{
+  background-color: rgb(131, 121, 36);
+}
