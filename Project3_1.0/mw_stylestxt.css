@@ -16,11 +16,13 @@ body{
   font-family: Tahoma, Geneva, sans-serif;
 }
 
+/*Nav styles*/
+
 nav ul{
   background-color: rgb(125, 120, 89);
   list-style-type: none;
   line-height: 3em;
-  list-style-image: url(wheelmarker.png);
+
 }
 
 
@@ -32,4 +34,55 @@ text-decoration: none;
 
 nav ul li:hover{
   background-color: rgb(131, 121, 36);
+  list-style-image: url(wheelmarker.png);
 }
+
+/*leftsection styles*/
+
+#leftsection{
+  font-size: 22px;
+  }
+ #firstpar{
+  text-transform: uppercase;
+}
+
+/*blockquote styles*/
+blockquote{
+  background-color: rgb(131, 121, 36);
+color: white;
+font-size: 16px;
+font-family: Comic Sans MS, Times, cursive;
+}
+
+ blockquote p:before{
+   content:open-quote;
+ }
+
+ blockquote p::after{
+   content: close-quote;
+ }
+/*rightsection styles*/
+ #rightsection h1{
+   font-size: 22px;
+   font-kerning: 3px;
+   font-weight: none;
+   text-align: center;
+ }
+
+ #rightsection h2{
+   font-size: 18px;
+   text-align: right;
+   font-weight: none;
+ }
+
+ #rightsection p{
+   color: grey;
+   font-size: 14px;
+  text-align: justify;
+ }
+/*footer styles*/
+ footer{
+   font-size: 16px;
+   font-style: normal;
+   text-align: center;
+ }
